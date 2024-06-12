@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+}
+.index_body{
+    height: 100vh;
+    background-image: url(fondo3.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display:flex;
+    font-style:normal;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.index_main{
+    font-size: 400%;
+    color: rgba(155, 161, 167, 0.712);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    height:auto;
+
+}
+
+.boton_index{
+    background: rgb(135, 177, 179);
+    color: azure ;
+    border:none;
+    border-radius: 5px;
+    width: 250px;
+    height: 65px;
+    font-size: 40px;
+    font-family:sans-serif;
+    
+}
+.redesSociales_blog{
+    display:flex;
+    height:50px;
+    align-items:center;
+    justify-content:center;
+    margin-right:100px;
+    margin-left:100px;
+    
+}
+
+.Sociales_blog{
+    background-color: #f7f7f7;
+    display:flex;
+    
+    align-items:center;
+    justify-content:center;
+    
+}
+
+.menu_blog{
+    border:3px solid cadetblue;
+    color: aliceblue;
+}
+.back{
+    background-image:url(https://w7.pngwing.com/pngs/669/129/png-transparent-desktop-space-blue-display-resolution-space-atmosphere-computer-wallpaper-color.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    background-color: #484449;
+    padding: 10px;
+
+}
+.menu li{
+    color:white;
+}
+.proyectos {
+    padding: 20px;
+    text-align: center;
+    margin-left:330px;
+    margin-right:330px;
+    size:200%;
+}
+.proyecto{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 10px auto;
+    display: inline-block;
+    text-align: center;
+    size:200%
+}
